@@ -1,0 +1,7 @@
+soal dijawab melalui projek kampus klik
+
+1. Rubah isi prodi menjadi combo box/ dropdown (Informatika, Si, Kedokteran) 
+2. Isian dari progres tersebut disimpan ke dalam database
+3. Data yang sudah diinput dapat diedit, pada form edit combobo atau deopdown menampilkan pilihan yang sebelumnya di tulis
+
+(contoh saat combo box dipilih saat diinput prodi kedokteran, maka saat edit combobox tersebut memilih data kedokteran
