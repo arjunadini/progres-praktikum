@@ -1,0 +1,105 @@
+
+/* Header */
+.header {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 35px;
+}
+
+/* content */
+.container {
+    display: flex;
+    height: 1000px;
+}
+
+/* content kiri */
+.menu-kiri {
+    background-color: rgb(197, 197, 197);
+    width: 25%;
+    padding: 20px;
+    justify-content: center;
+    color: rgb(34, 34, 34);
+}
+
+
+/* Content tengah */
+.content {
+    background-color: #fff;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    line-height: 1.7;
+}
+
+/* content kanan*/
+.biodata {
+    width: 25%;
+    padding: 20px;
+    background-color: rgb(197, 197, 197);
+    align-items: center;
+}
+
+/* Footer*/
+.footer {
+    background-color: #212121;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+/*gambar*/
+img {
+    border: 0px solid black;
+    border-radius: 0px;
+    padding: 5px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*biodata teks*/
+.biodata p {
+    margin: 10px;
+    line-height: 1.7;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*biodata teks gelap*/
+.biodata p:nth-child(odd) {
+    background-color: #eaeaea;
+}
+
+/*font*/
+.biodata-saya {
+    text-align: center;
+    color: #333;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Menu*/
+.menu {
+    color: #333;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    border-bottom: 3px double black;
+}
